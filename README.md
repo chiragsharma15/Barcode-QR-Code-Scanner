@@ -93,22 +93,3 @@ Barcode & QR code scanner/
 ├── barcode_data.csv    # Auto-generated on exit / E key
 └── screenshots/        # Auto-created on S key
 ```
-
----
-
-## Resume Bullet Points
-
-```
-Barcode & QR Code Scanner | Python, OpenCV, PyZBar
-
-• Developed a real-time barcode and QR code scanning system using OpenCV and PyZBar.
-• Implemented image preprocessing techniques including grayscale conversion,
-  histogram equalization, and Gaussian noise reduction to improve detection accuracy
-  under varying lighting conditions.
-• Enabled real-time decoding and visualization of multiple barcode formats from live
-  webcam feeds with bounding-box and corner-accent overlays.
-• Designed a low-latency processing pipeline (FPS-optimized frame skipping) supporting
-  EAN, UPC, Code 128, Code 39, and QR Code standards.
-• Built automated scan-history deduplication and CSV export for inventory tracking use-cases.
-• Wrote offline unit tests covering the preprocessing, rendering, and I/O layers.
-```
